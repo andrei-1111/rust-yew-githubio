@@ -2,6 +2,18 @@
 
 The codebase came from the [Yew sample app documentation](https://yew.rs/docs/getting-started/build-a-sample-app#using-a-starter-template).
 
+- Setup GitHub pages
+  `https://github.com/<repository_name>/settings/pages`
+
+- Run trunk build
+```bash
+trunk build --release --public-url <repository_name>/
+```
+- Copy contents from `dist` folder to `docs` folder
+
+
+---
+
 # Yew Trunk Template
 
 This is a fairly minimal template for a Yew app that's built with [Trunk].
