@@ -11,4 +11,6 @@ categories = ["gui", "wasm", "web-programming"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
-yew = { version="0.20", features=["csr"] }
+yew = { git = "https://github.com/yewstack/yew", tag = "yew-v0.20.0", version = "0.20.0", features = ["csr"] }
+yew-router = { git = "https://github.com/yewstack/yew", tag = "yew-v0.20.0", version = "0.16.0" }
+
